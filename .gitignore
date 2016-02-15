@@ -23,3 +23,7 @@ client/lib
 .floobit
 .floo
 .flooignore
+
+
+## API keys
+env/config.js
