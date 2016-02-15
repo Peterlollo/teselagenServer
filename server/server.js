@@ -3,9 +3,13 @@ var mongoose = require('mongoose');
 
 var app = express();
 
+//connect to mongo database
 mongoose.connect('mongodb://localhost/mean-scaffold');
 
-//Missing middleware/routing functionality here:
+//Add middleware/routing functionality:
+require('./config/middleware.js')(app, express);
+require('./config/routes.js')(app, express);
+
 
 app.listen(8000);
 

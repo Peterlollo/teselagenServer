@@ -1,14 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="mean">
   <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>MEAN</title>
     <link rel="stylesheet" type="text/css" href="lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
   </head>
   <body>
     <h1>MEAN-Scaffold</h1>
     <input type="button" method="POST" action="/users">
     <input type="button" method="GET" action="/users">
+
+    <div ng-view></div>
+
+
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="lib/angular-route/angular-route.js"></script>
+    <script src="app/home/home.js"></script>
+    <script src="app/app.js"></script>
   </body>
 </html>
