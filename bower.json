@@ -1,0 +1,29 @@
+{
+  "name": "mean-scaffold",
+  "description": "front-end dependencies",
+  "main": "index.js",
+  "authors": [
+    "Peter Lollo"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-route": "^1.5.0",
+    "angular-mocks": "^1.5.0",
+    "angular-animate": "^1.5.0",
+    "bootstrap": "^3.3.6"
+  },
+  "resolutions": {
+    "angular": "1.5.0"
+  }
+}
